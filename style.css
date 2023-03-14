@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hepta+Slab:wght@300;600&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hepta+Slab:wght@300&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@1&family=Hepta+Slab:wght@300;600&family=Krona+One&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F3DCFF
+    
+}
+
+.apresentacao{
+    margin: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 650px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__titulo{
+    
+    color: #e041f1;
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: 'Hepta Slab', serif; 
+}
+
+.apresentacao__conteudo__paragrafo{
+    
+    color:#836394;
+    font-size: 19px;
+    font-weight: 300px;
+    font-family: 'Hepta Slab', serif;
+}
+
+.apresentacao__conteudo__chamada{
+
+    color: purple;
+    font-size: 22px;
+    font-weight: 600px;
+    font-family: 'Hepta Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.destaque {
+    color:  rgba(71, 5, 71, 0.685);
+}
+
+.apresentacao__conteudo__link{
+    display: flex;
+    justify-content: center;
+
+}
+
+.apresentacao__conteudo__instagram{
+    background-color: purple;
+    width: 280px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+img{
+    width: 400px; 
+    height: 500px;
+}
