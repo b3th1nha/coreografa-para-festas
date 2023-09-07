@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hepta+Slab:wght@300;600&family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hepta+Slab:wght@300&family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display:ital@1&family=Hepta+Slab:wght@300;600&family=Krona+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
 
 
 * {
@@ -10,16 +10,33 @@
 
 }
 
+
 body{
 
     height: 100vh;
     box-sizing: border-box;
-    background-color: #F3DCFF
+    background-color: #F3DCFF;
     
 }
 
+.titulo {
+    margin: 2% 20% 2% 25%; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__nome {
+    color:purple;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: capitalize;
+    font-family: 'Domine', serif;
+
+}
+
 .apresentacao{
-    margin: 10% 10%;
+    margin: 3% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +51,7 @@ body{
 
 .apresentacao__conteudo__titulo{
     
-    color: #e041f1;
+    color: #e041f1; 
     font-size: 30px;
     font-weight: 600px;
     font-family: 'Hepta Slab', serif; 
@@ -50,8 +67,8 @@ body{
 
 .apresentacao__conteudo__chamada{
 
-    color: purple;
-    font-size: 22px;
+    color: #e041f1;
+    font-size: 26px;
     font-weight: 600px;
     font-family: 'Hepta Slab', serif;
     display: flex;
@@ -59,7 +76,11 @@ body{
 }
 
 .destaque {
-    color:  rgba(71, 5, 71, 0.685);
+    color:  purple;
+}
+
+.destaque2 {
+    color:rgba(63, 0, 63, 0.685); 
 }
 
 .apresentacao__conteudo__link{
@@ -83,3 +104,24 @@ img{
     width: 400px; 
     height: 500px;
 }
+
+.foto{
+    color:rgba(71, 5, 71, 0.685);
+    display: flex;
+    justify-content: right;
+    font-size: 15px;
+}
+
+.teste__texto{
+    margin: 0;
+    padding: 0;
+    border: rgba(71, 5, 71, 0.685) solid;
+    color: purple;
+    font-size: 50px;
+    
+}
+
+
+
+
+
